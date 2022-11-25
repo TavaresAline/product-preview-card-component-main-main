@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="description" content="The first newbie's challenge from frontendmentor.io">
+  <meta name="author" content="The Programmer Count">
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="./style/modern-reset.css">
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+
+  <main class="general__container">
+
+    <section class="border__container">
+
+      <article class="image__container">
+        <picture>
+          <source media="(min-width: 680px)" srcset="./assets/image-product-desktop.jpg">
+          <img src="./assets/image-product-mobile.jpg" alt="Perfume">
+        </picture>
+      </article>
+
+      <article class="content__container">
+        <section class="category__container">
+          <span class="category">perfume</span>
+        </section>
+
+        <section class="name__container">
+          <h1 class="name">
+            Gabrielle Essence Eau De Parfum
+          </h1>
+        </section>
+
+        <section class="info__container">
+          <p class="info">
+            A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+            Perfumer-Creator for the House of CHANEL.
+          </p>
+        </section>
+
+        <section class="price__container">
+          <span class="current__price">
+            $149.99
+          </span>
+
+          <span class="old__price">
+            <del>$169.99</del>
+          </span>
+        </section>
+
+        <section class="button__container">
+          <button class="cta"><img src="./assets/icon-cart.svg" alt="Button's image" class="cta__image">Add to Cart</button>
+        </section>
+      </article>
+
+    </section>
+
+  </main>
+
+  
+</body>
+</html>
